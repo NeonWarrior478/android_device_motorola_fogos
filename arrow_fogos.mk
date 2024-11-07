@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from fogos device
 $(call inherit-product, device/motorola/fogos/device.mk)
 
-# Inherit some common Arrow stuff.
+# Inherit some common ArrowOS stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
 
 PRODUCT_NAME := arrow_fogos
