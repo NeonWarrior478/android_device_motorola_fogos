@@ -7,7 +7,6 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/arrow_fogos.mk
 
-
 COMMON_LUNCH_CHOICES := \
     arrow_fogos-user \
     arrow_fogos-userdebug \
